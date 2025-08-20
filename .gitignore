@@ -1,0 +1,18 @@
+# ───────────────────────────────────────────
+# Assets (fonts)
+# Ignora a pasta de fontes inteira dentro de /assets
+# ───────────────────────────────────────────
+assets/fonts/
+
+# ───────────────────────────────────────────
+# Design exports
+# Ignora a pasta /design inteira
+# ───────────────────────────────────────────
+design/
+
+# ───────────────────────────────────────────
+# Root files
+# Ignora apenas estes arquivos na raiz do projeto
+# ───────────────────────────────────────────
+preview.jpg
+README-template.md
