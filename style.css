@@ -1,0 +1,39 @@
+:root{
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey-700: hsl(0, 0%, 20%);
+    --Grey-800: hsl(0, 0%, 12%);
+    --Grey-900: hsl(0, 0%, 8%);
+}
+
+body{
+    background-color: var(--Grey-900);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.user-img{
+    border-radius: 50%;
+}
+
+.user-name{
+    color: var(--White);
+    text-align: center;
+}
+
+.location{
+    color: var(--Green);
+    text-align: center;
+}
+
+.bio{
+    color: var(--White);
+    text-align: center;
+}
+
+.list-item{
+    list-style: none;
+}
